@@ -9,3 +9,5 @@ Route::get('/', function () {
 
 route::get('sede', 'PagesController@sede')->name('sede');
 route::get('sedejson', 'PagesController@sedejson')->name('sedejson');
+route::get('laboratorio', 'PagesController@laboratorio')->name('laboratorio');
+route::get('servicios', 'PagesController@servicios')->name('servicios');
